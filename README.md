@@ -8,8 +8,7 @@ Este es el **proyecto base** para desarrollar la actividad:
 
 La actividad consiste en **comprender, observar, evidenciar y diagnosticar** el código antes de realizar cualquier refactorización estructural.
 
-> **Regla del laboratorio:** durante el Laboratorio 1 NO debes refactorizar todavía.
-
+> **Enlace Github:** https://github.com/joffrebarrev/lab1-codigo-heredado
 ---
 
 ## Requisitos
