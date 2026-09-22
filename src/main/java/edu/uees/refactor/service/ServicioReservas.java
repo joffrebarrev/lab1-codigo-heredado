@@ -23,7 +23,7 @@ public class ServicioReservas {
             return 0;
         }
 
-        r.confirmar(); // Usara el método nativo de la clase Reserva
+        r.confirmar(); // Usará el método nativo de la clase Reserva
         System.out.println("Guardando reserva " + r.getId());
         System.out.println("Correo enviado a " + r.getCorreo());
 
