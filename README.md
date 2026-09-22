@@ -1,130 +1,186 @@
-lab1-codigo-heredado
+# lab1-codigo-heredado
 
-Proyecto de laboratorio para el curso Diseño de Software (UCOM0310) — Universidad Espíritu Santo (UEES), PEL 4, 2026.
+Proyecto de laboratorio para el curso **Diseño de Software (UCOM0310)** — Universidad Espíritu Santo (UEES), PEL 4, 2026.
 
-Sistema heredado de gestión de reservas (ServicioReservas) usado como caso de estudio progresivo para practicar diagnóstico de código heredado, refactorización protegida por pruebas y patrones de diseño, siguiendo el ciclo:
+Sistema heredado de gestión de reservas (`ServicioReservas`) usado como caso de estudio progresivo para practicar **diagnóstico de código heredado**, **refactorización protegida por pruebas** y **patrones de diseño**, siguiendo el ciclo:
 
+```
 DIAGNOSTICAR → PROBAR → REFACTORIZAR → VERIFICAR → EVIDENCIAR
+```
 
-📌 Información General
-Institución: Universidad Especialidades Espíritu Santo (UEES)[cite: 4, 5]
+---
 
-Carrera: Ingeniería en Computación
+## 📌 Estado actual
 
-Materia: Diseño de Software | UCOM0310[cite: 5]
+| | |
+|---|---|
+| **Build** | ✅ `mvn clean test` → `BUILD SUCCESS` |
+| **Pruebas** | 7/7 en verde (JUnit 5) |
+| **Java** | 21 |
+| **Build tool** | Maven |
+| **Última actividad** | Ae5 — Refactorización respaldada por pruebas unitarias |
 
-Estudiante: Joffre Barre Velíz[cite: 4]
+---
 
-Semana: Semana 6 · PEL 4 – 2026[cite: 5]
+## 🗂️ Estructura del proyecto
 
-Repositorio: https://github.com/joffrebarrev/lab1-codigo-heredado[cite: 4, 5]
-
-🎯 Propósito del Proyecto
-Demostrar la capacidad de mejorar el diseño de un código heredado aplicando técnicas avanzadas de refactorización, mientras una suite de pruebas unitarias con JUnit 5 actúa como red de seguridad para garantizar que la conducta externa del sistema permanezca inalterada (Ciclo Seguro: PRUEBA VERDE → CAMBIO PEQUEÑO → PRUEBA VERDE → COMMIT)[cite: 5].
-
-🛠️ Tecnologías Utilizadas
-Lenguaje: Java 21[cite: 3]
-
-Gestor de Dependencias y Construcción: Apache Maven[cite: 3, 5]
-
-Testing Framework: JUnit 5 (JUnit Platform / Surefire)[cite: 3, 5]
-
-Control de Versiones: Git & GitHub[cite: 4, 5]
-
-🚀 Requisitos e Instrucciones de Ejecución
-Prerrequisitos
-Java Development Kit (JDK) 21 o superior instalado[cite: 3].
-
-Apache Maven 3.8+ configurado en las variables de entorno[cite: 3, 5].
-
-Git instalado[cite: 4, 5].
-
-Pasos para Clonar y Ejecutar
-Clonar el repositorio:
-
-Bash
-git clone https://github.com/joffrebarrev/lab1-codigo-heredado.git
-cd lab1-codigo-heredado
-Ejecutar la suite completa de pruebas unitarias:
-
-Bash
-mvn clean test
-Resultado esperado:
-
-Plaintext
-[INFO] Running edu.uees.refactor.service.ServicioReservasTest
-...
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
-[INFO] BUILD SUCCESS
-🧩 Refactorizaciones Aplicadas
-Se aplicaron tres refactorizaciones de mayor alcance justificadas a partir del diagnóstico del código heredado[cite: 4, 5]:
-
-1. Extract Class (NotificadorEmail)
-Problema: La clase ServicioReservas violaba el Principio de Responsabilidad Única (SRP) al manejar la orquestación del negocio y la lógica de notificaciones por correo electrónico a consola[cite: 4].
-
-Técnica: Extract Class[cite: 5]. Se extrajo la responsabilidad de envío de mensajes a la nueva clase NotificadorEmail e inyectada como dependencia[cite: 3].
-
-Commit: 81e4c01 — refactor: extraer responsabilidad de notificación a NotificadorEmail[cite: 3, 5]
-
-2. Introduce Value Object (Monto)
-Problema: Obsesión por Primitivos (Primitive Obsession) al manejar valores monetarios y porcentajes con variables tipo double sueltas y desprotegidas[cite: 3, 5].
-
-Técnica: Introduce Value Object[cite: 5]. Se creó el record Monto(double valor) encapsulando las operaciones financieras, inmutabilidad y validaciones de valores no negativos[cite: 3].
-
-Commit: 5a818cc — refactor: introducir Value Object Monto para encapsular importes[cite: 3, 5]
-
-3. Guard Clauses / Decompose Conditional (esReservaInvalida)
-Problema: Condicionales anidados complejos (Deeply Nested Conditionals) que oscurecían el camino principal del método procesar[cite: 4, 5].
-
-Técnica: Guard Clauses / Decompose Conditional[cite: 5]. Se extrajeron las validaciones de fallo temprano al método privado esReservaInvalida(Reserva r, int horasAnticipacion)[cite: 3].
-
-Commit: d3e4237 — refactor: simplificar condicionales anidadas aplicando Guard Clauses[cite: 3, 5]
-
-📊 Matriz Comparativa (Antes vs. Después)
-Dimensión[cite: 5]	Estado Inicial (Antes)[cite: 5]	Estado Final (Después)[cite: 5]
-Responsabilidades[cite: 5]	Mezcladas en ServicioReservas (validación, cobro, estado, notificación)[cite: 4].	Segregadas: ServicioReservas (orquestador), NotificadorEmail (comunicación), Monto (financiero)[cite: 3].
-Cohesión[cite: 5]	Baja cohesión[cite: 4].	Alta cohesión bajo el Principio SRP[cite: 3, 4].
-Acoplamiento[cite: 5]	Directo a primitivos y salidas por consola[cite: 4].	Débil gracias a Inyección de Dependencias y Value Objects[cite: 3].
-Datos del Dominio[cite: 5]	Primitivos double sueltos[cite: 3, 4].	Encapsulados e inmutables mediante el record Monto[cite: 3].
-Condicionales[cite: 5]	Bloques if anidados profundos[cite: 4].	Aplanados usando cláusulas de guarda (Guard Clauses)[cite: 3, 5].
-Pruebas[cite: 5]	Vulnerable a regresiones silenciosas[cite: 3].	Suite de 7 pruebas protegiendo el 100% de los escenarios[cite: 3, 4].
-Git[cite: 5]	Cambios masivos sin rastreo atómico[cite: 4].	Historial con commits incrementales en ciclo seguro[cite: 3, 5].
-📜 Historial de Commits Incrementales
-Plaintext
-d3e4237 (HEAD -> main, origin/main) refactor: simplificar condicionales anidadas aplicando Guard Clauses
-5a818cc refactor: introducir Value Object Monto para encapsular importes
-81e4c01 refactor: extraer responsabilidad de notificación a NotificadorEmail
-8f64710 refactor: extraer calculo de total a metodo privado
-8079ecd test: caracterizar comportamiento heredado de reservas
-🛡️ Preguntas de Defensa (Resumen Técico)
-¿Qué comportamiento protegiste antes de refactorizar?
-Las reglas de cálculo de tarifa base (40.0), descuento VIP (34.0), invalidación por formato de correo/fechas inconsistentes y la actualización de estado a CONFIRMADA[cite: 3].
-
-¿Por qué estas refactorizaciones?
-Atacan directamente la baja cohesión (Extract Class), la obsesión por primitivos (Value Object) y la alta complejidad ciclomática (Guard Clauses)[cite: 3, 4, 5].
-
-¿Qué prueba detectó una regresión?
-vipActualmenteRetornaTreintaYCuatro(). Al alterar intencionalmente el cálculo de descuento, detuvo la compilación con BUILD FAILURE[cite: 3, 4].
-
-¿Qué cambió en el diseño y qué permaneció igual?
-Cambió la estructura interna y abstracción de datos; permaneció inalterado el contrato público y las salidas del sistema[cite: 3, 4].
-
-📂 Estructura del Proyecto
-Plaintext
+```
 lab1-codigo-heredado/
+├── pom.xml
+├── README.md
 ├── docs/
-│   └── Informe_Tecnico_AE5_Joffre_Barre_con_Evidencias.docx
+│   └── (informes técnicos y reflexiones de cada actividad)
 ├── src/
 │   ├── main/java/edu/uees/refactor/
 │   │   ├── domain/
-│   │   │   ├── Monto.java
-│   │   │   └── Reserva.java
-│   │   └── service/
-│   │       ├── NotificadorEmail.java
-│   │       └── ServicioReservas.java
+│   │   │   ├── Reserva.java          # Entidad del dominio, encapsula su estado (confirmar())
+│   │   │   ├── EstadoReserva.java    # Enum: PENDIENTE, CONFIRMADA
+│   │   │   └── Monto.java            # Value Object (record) — importe con validación e inmutabilidad
+│   │   ├── service/
+│   │   │   ├── ServicioReservas.java # Orquestador: valida, confirma, delega notificación y cálculo
+│   │   │   └── NotificadorEmail.java # Responsabilidad extraída (Extract Class) — envío de notificaciones
+│   │   └── app/
+│   │       └── Main.java             # Punto de entrada de demostración end-to-end
 │   └── test/java/edu/uees/refactor/service/
-│       └── ServicioReservasTest.java
-├── pom.xml
-└── README.md
-🤖 Declaración de Uso de Inteligencia Artificial
-Se utilizó asistencia de IA como apoyo interactivo para el diagnóstico de Code Smells, estructuración de Value Objects en Java 21 y redacción del reporte técnico bajo los criterios de la rúbrica[cite: 5]. La ejecución técnica, implementación de código, pruebas y comandos Git fueron ejecutados y validados de manera individual por el estudiante[cite: 4, 5].
+│       └── ServicioReservasTest.java # Suite de 7 pruebas de caracterización (red de seguridad)
+└── target/                           # Generado por Maven (no versionado)
+```
+
+---
+
+## ⚙️ Cómo ejecutar el proyecto
+
+### Requisitos
+- JDK 21
+- Maven 3.9+
+
+### Clonar el repositorio
+```bash
+git clone https://github.com/joffrebarrev/lab1-codigo-heredado.git
+cd lab1-codigo-heredado
+```
+
+### Compilar y ejecutar las pruebas
+```bash
+mvn clean test
+```
+Salida esperada:
+```
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+BUILD SUCCESS
+```
+
+### Ejecutar la demo end-to-end (clase Main)
+```bash
+mvn compile exec:java -Dexec.mainClass="edu.uees.refactor.app.Main"
+```
+Salida esperada:
+```
+Guardando reserva R-001
+Correo enviado a ana@uees.edu.ec
+Estado: CONFIRMADA
+Total: 34.0
+```
+
+---
+
+## 🧪 Suite de pruebas — red de seguridad (JUnit 5)
+
+`ServicioReservasTest` concentra 7 pruebas de caracterización que protegen cada regla de negocio y caso límite del sistema. Ninguna refactorización se da por completa sin que las 7 permanezcan en verde.
+
+| # | Prueba | Escenario | Protege |
+|---|---|---|---|
+| 1 | `normalActualmenteRetornaCuarenta()` | Reserva NORMAL, 5h anticipación | Tarifa base ($40.0) |
+| 2 | `vipActualmenteRetornaTreintaYCuatro()` | Reserva VIP, 5h anticipación | Descuento VIP (15%) |
+| 3 | `correoInvalidoNoProcesaReserva()` | Email sin `@` | Rechazo de correo mal formado |
+| 4 | `periodoConFinAnteriorNoProcesa()` | Fecha fin anterior a inicio | Períodos de fecha inconsistentes |
+| 5 | `dosHorasExactasPermitenProcesar()` | Reserva NORMAL, 2h anticipación | Caso límite (frontera permitida) |
+| 6 | `unaHoraNoPermiteProcesar()` | Reserva NORMAL, 1h anticipación | Caso límite (frontera rechazada) |
+| 7 | `reservaNulaRetornaCero()` | Objeto `Reserva == null` | Manejo defensivo ante nulos |
+
+---
+
+## 🔄 Historial de refactorizaciones
+
+El proyecto documenta un proceso incremental y trazable, con un commit atómico por cada cambio, siguiendo siempre el ciclo **Prueba Verde → Cambio pequeño → Prueba Verde → Commit**.
+
+### Actividad 1 — Diagnóstico de código heredado (línea base)
+Evaluación estructural del código heredado: mapa de responsabilidades (SRP), matriz de *code smells*, matriz de riesgo y suite inicial de pruebas de caracterización.
+
+### Actividad 2 — Laboratorio: construcción de la red de seguridad con JUnit 5
+- **Extract Method**: se extrajo el cálculo del total a `calcularTotal(Reserva r)`, dejando `procesar()` como un orquestador legible.
+- **Demostración de regresión**: se introdujo un error intencional en el descuento VIP (0.85 → 0.80); la suite lo detectó de inmediato (`AssertionFailedError: expected <34.0> but was <32.0>`), confirmando la efectividad de la red de seguridad.
+- El cambio se revirtió con `git restore` y la suite volvió a `BUILD SUCCESS`.
+
+### Ae5 — Refactorización respaldada por pruebas unitarias
+Tres refactorizaciones adicionales, cada una verificada por la suite completa antes de comprometerse a Git:
+
+1. **Extract Class** — se creó `NotificadorEmail` para separar la responsabilidad de notificación de `ServicioReservas` (Principio de Responsabilidad Única).
+2. **Introduce Value Object** — se creó el `record Monto`, inmutable y con validación explícita, para eliminar el *Primitive Obsession* del cálculo financiero.
+3. **Guard Clauses** — las validaciones anidadas de `procesar()` se extrajeron a `esReservaInvalida(...)`, reduciendo la complejidad ciclomática mediante retornos tempranos.
+
+### Commits principales
+
+| Hash | Mensaje |
+|---|---|
+| `8079ecd` | `test: caracterizar comportamiento heredado de reservas` |
+| `8f64710` | `refactor: extraer calculo de total a metodo privado` |
+| `d2a2e55` | `refactor: completar refactorizacion protegida y demostracion de regresion` |
+| `af92829` | `docs: agregar informe completo de la Actividad 2 con preguntas de reflexion` |
+| `0c952bd` | `docs: actualizar reflexion tecnica con tabla de cumplimiento y checklist` |
+| `81e4c01` | `refactor: aplicar Extract Class separando NotificadorEmail de ServicioReservas` |
+| `5a818cc` | `refactor: introducir Value Object Monto para encapsular calculos financieros` |
+| `d3e4237` | `refactor: simplificar condicionales anidadas aplicando Guard Clauses` |
+
+Historial completo:
+```bash
+git log --oneline
+```
+
+---
+
+## 🧩 Diseño del dominio
+
+```
+Reserva              — entidad con id, correo, inicio, fin, tipo, estado
+  └─ confirmar()      — único punto autorizado para transicionar el estado a CONFIRMADA
+
+EstadoReserva         — enum: PENDIENTE | CONFIRMADA
+
+Monto (record)        — value object inmutable
+  ├─ valor: double     — validado (no negativo) en el constructor compacto
+  └─ aplicarDescuento(double porcentaje): Monto
+
+ServicioReservas       — orquestador
+  ├─ procesar(Reserva, int horasAnticipacion): double
+  ├─ esReservaInvalida(Reserva, int): boolean   (Guard Clauses)
+  ├─ calcularTotal(Reserva): double             (usa Monto)
+  └─ notificador: NotificadorEmail              (inyectado por constructor)
+
+NotificadorEmail
+  └─ enviarConfirmacion(Reserva)
+```
+
+---
+
+## 📄 Documentación adicional
+
+Los informes técnicos completos de cada actividad (diagnóstico, evidencia de ejecución, tablas comparativas antes/después, preguntas de reflexión y declaración de uso de IA) se encuentran en `docs/` y en las entregas de Blackboard correspondientes:
+
+- Lab 1 — Diagnóstico de código heredado
+- Actividad 2 — Laboratorio: construcción de la red de seguridad con JUnit 5
+- Ae5 — Refactorización respaldada por pruebas unitarias
+
+---
+
+## 👤 Autor
+
+**Joffre Barre Velíz**
+Universidad Espíritu Santo (UEES) — Ingeniería en Computación
+Diseño de Software (UCOM0310), PEL 4 - 2026
+
+---
+
+## 🤖 Declaración de uso de IA
+
+Se utilizó asistencia de IA (Claude, Anthropic) como herramienta de apoyo para la redacción y el formato de los informes técnicos y de este README. El diagnóstico del código heredado, el diseño e implementación de las refactorizaciones, la escritura y ejecución de las pruebas, y los commits de Git fueron realizados por el estudiante.
