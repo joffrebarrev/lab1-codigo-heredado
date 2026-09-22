@@ -1,0 +1,26 @@
+2026.09.22 01:19:47 INFO  Started: Metals version 1.6.9 in folders 'D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service' for client Visual Studio Code 1.138.0.
+2026.09.22 01:19:47 INFO  Memory monitor started
+2026.09.22 01:19:54 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.22 01:19:57 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:19:57 WARN  no build tool detected in workspace 'D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.09.22 01:19:58 WARN  Build server is not auto-connectable.
+2026.09.22 01:19:57 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java
+2026.09.22 01:19:59 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+sept 22, 2026 1:19:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4
+sept 22, 2026 1:19:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2026.09.22 01:20:00 WARN  Running javac-semanticdb failed for file:///D:/personal%20joffre%20barre/UESS%20-%20INGENIERIA%20COMPUTACION/Diseño%20de%20Software/lab1-codigo-heredado/src/main/java/edu/uees/refactor/service/NotificadorEmail.java. Output:
+
+2026.09.22 01:20:01 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:20:01 WARN  Running javac-semanticdb failed for file:///D:/personal%20joffre%20barre/UESS%20-%20INGENIERIA%20COMPUTACION/Diseño%20de%20Software/lab1-codigo-heredado/src/main/java/edu/uees/refactor/service/NotificadorEmail.java. Output:
+
+2026.09.22 01:20:01 INFO  time: code lens generation in 3.83s
+2026.09.22 01:20:01 INFO  time: code lens generation in 3.82s
+2026.09.22 01:20:04 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:20:05 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java
+sept 22, 2026 1:20:05 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10
+2026.09.22 01:20:05 INFO  Shutting down server
+2026.09.22 01:20:05 INFO  Memory monitor stopped
+2026.09.22 01:20:05 INFO  shutting down Metals

@@ -373,3 +373,123 @@ ADVERTENCIA: Unmatched cancel notification for request id 534
 2026.09.22 00:02:40 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.[0m
 2026.09.22 00:02:41 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.[0m
 2026.09.22 00:02:41 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.[0m
+2026.09.22 01:11:52 INFO  Started: Metals version 1.6.9 in folders 'D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado' for client Visual Studio Code 1.138.0.
+2026.09.22 01:11:52 INFO  Memory monitor started
+2026.09.22 01:11:57 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.22 01:11:57 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:11:58 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+sept 22, 2026 1:11:58 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2026.09.22 01:11:58 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+sept 22, 2026 1:11:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3
+2026.09.22 01:11:59 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:12:18 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+sept 22, 2026 1:12:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 13
+2026.09.22 01:12:19 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:12:18 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+sept 22, 2026 1:12:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 17
+2026.09.22 01:12:19 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:12:49 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:35 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:40 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+sept 22, 2026 1:14:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 32
+2026.09.22 01:14:42 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:42 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:42 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:42 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:44 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:45 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:44 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:45 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:45 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:45 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:48 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java
+2026.09.22 01:14:48 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:14:48 WARN  Running javac-semanticdb failed for file:///D:/personal%20joffre%20barre/UESS%20-%20INGENIERIA%20COMPUTACION/Diseño%20de%20Software/lab1-codigo-heredado/src/main/java/edu/uees/refactor/service/ServicioReservas.java. Output:
+
+2026.09.22 01:14:49 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:15:08 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java
+2026.09.22 01:15:08 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:15:09 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:02 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:02 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java
+sept 22, 2026 1:16:03 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 61
+2026.09.22 01:16:02 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+sept 22, 2026 1:16:03 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 63
+2026.09.22 01:16:02 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+sept 22, 2026 1:16:03 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 64
+2026.09.22 01:16:03 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:02 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+sept 22, 2026 1:16:03 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 67
+2026.09.22 01:16:03 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:03 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:05 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:05 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:05 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:05 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:06 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:16:16 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:17 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java
+2026.09.22 01:16:16 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+sept 22, 2026 1:16:17 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 81
+sept 22, 2026 1:16:17 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 83
+2026.09.22 01:16:16 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:17 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:17 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:20 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:20 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:21 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:21 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:21 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:22 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:21 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:25 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java
+2026.09.22 01:16:25 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:16:26 WARN  Running javac-semanticdb failed for file:///D:/personal%20joffre%20barre/UESS%20-%20INGENIERIA%20COMPUTACION/Diseño%20de%20Software/lab1-codigo-heredado/src/main/java/edu/uees/refactor/service/ServicioReservas.java. Output:
+
+2026.09.22 01:16:26 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:17:32 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:17:32 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:17:33 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:17:32 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:17:34 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\ServicioReservas.java. Using fallback presentation compiler.
+2026.09.22 01:18:16 INFO  Shutting down server
+2026.09.22 01:18:16 INFO  Memory monitor stopped
+2026.09.22 01:18:16 INFO  shutting down Metals
+2026.09.22 01:18:16 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+
+2026.09.22 01:18:16 INFO  Exiting server
+2026.09.22 01:21:26 INFO  Started: Metals version 1.6.9 in folders 'D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado' for client Visual Studio Code 1.138.0.
+2026.09.22 01:21:26 INFO  Memory monitor started
+2026.09.22 01:21:31 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.22 01:21:32 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:21:37 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java
+2026.09.22 01:21:38 WARN  Running javac-semanticdb failed for file:///D:/personal%20joffre%20barre/UESS%20-%20INGENIERIA%20COMPUTACION/Diseño%20de%20Software/lab1-codigo-heredado/src/main/java/edu/uees/refactor/service/NotificadorEmail.java. Output:
+
+2026.09.22 01:21:38 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:21:41 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:21:42 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:21:43 WARN  no build target for: D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java
+2026.09.22 01:21:43 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.
+2026.09.22 01:21:47 INFO  no build target found for D:\personal joffre barre\UESS - INGENIERIA COMPUTACION\Diseño de Software\lab1-codigo-heredado\src\main\java\edu\uees\refactor\service\NotificadorEmail.java. Using fallback presentation compiler.

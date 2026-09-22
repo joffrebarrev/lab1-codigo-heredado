@@ -1,9 +1,18 @@
 package edu.uees.refactor.service;
 
-import edu.uees.refactor.domain.EstadoReserva;
 import edu.uees.refactor.domain.Reserva;
 
 public class ServicioReservas {
+
+    private final NotificadorEmail notificador;
+
+    public ServicioReservas() {
+        this.notificador = new NotificadorEmail();
+    }
+
+    public ServicioReservas(NotificadorEmail notificador) {
+        this.notificador = notificador;
+    }
 
     public double procesar(Reserva r, int horasAnticipacion) {
 
@@ -23,15 +32,15 @@ public class ServicioReservas {
             return 0;
         }
 
-        r.confirmar(); // Usará el método nativo de la clase Reserva
+        r.confirmar(); 
         System.out.println("Guardando reserva " + r.getId());
-        System.out.println("Correo enviado a " + r.getCorreo());
 
-        // Lógica refactorizada: invocación al método extraído
+        // Delegación de notificación por correo
+        notificador.enviarConfirmacion(r);
+
         return calcularTotal(r);
     }
 
-    // Método extraído (Refactorización protegida)
     private double calcularTotal(Reserva r) {
         double total = 40;
         if ("VIP".equals(r.getTipo())) {
