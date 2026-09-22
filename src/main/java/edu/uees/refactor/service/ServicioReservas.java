@@ -1,5 +1,6 @@
 package edu.uees.refactor.service;
 
+import edu.uees.refactor.domain.Monto;
 import edu.uees.refactor.domain.Reserva;
 
 public class ServicioReservas {
@@ -35,17 +36,16 @@ public class ServicioReservas {
         r.confirmar(); 
         System.out.println("Guardando reserva " + r.getId());
 
-        // Delegación de notificación por correo
         notificador.enviarConfirmacion(r);
 
         return calcularTotal(r);
     }
 
     private double calcularTotal(Reserva r) {
-        double total = 40;
+        Monto montoBase = new Monto(40.0);
         if ("VIP".equals(r.getTipo())) {
-            return total * 0.85;
+            return montoBase.aplicarDescuento(0.15).valor();
         }
-        return total;
+        return montoBase.valor();
     }
 }
