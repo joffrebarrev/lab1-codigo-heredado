@@ -16,20 +16,8 @@ public class ServicioReservas {
     }
 
     public double procesar(Reserva r, int horasAnticipacion) {
-
-        if (r == null) {
-            return 0;
-        }
-
-        if (r.getCorreo() == null || !r.getCorreo().contains("@")) {
-            return 0;
-        }
-
-        if (r.getInicio() == null || r.getFin() == null || !r.getFin().isAfter(r.getInicio())) {
-            return 0;
-        }
-
-        if (horasAnticipacion < 2) {
+        // Cláusulas de guarda (Guard Clauses) para retornos tempranos
+        if (esReservaInvalida(r, horasAnticipacion)) {
             return 0;
         }
 
@@ -39,6 +27,14 @@ public class ServicioReservas {
         notificador.enviarConfirmacion(r);
 
         return calcularTotal(r);
+    }
+
+    // Método de soporte para centralizar las cláusulas de guarda
+    private boolean esReservaInvalida(Reserva r, int horasAnticipacion) {
+        if (r == null) return true;
+        if (r.getCorreo() == null || !r.getCorreo().contains("@")) return true;
+        if (r.getInicio() == null || r.getFin() == null || !r.getFin().isAfter(r.getInicio())) return true;
+        return horasAnticipacion < 2;
     }
 
     private double calcularTotal(Reserva r) {
